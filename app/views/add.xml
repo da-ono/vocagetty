@@ -1,0 +1,13 @@
+<Alloy>
+	<Window id="win" title="Input a word">
+		<TextField id="textEn" hintText="word input" onBlur="textInputed" />
+		<TextField id="textJa" hintText="和訳" />
+		<Toolbar id="toolbar" bottom="0" borderTop="true" borderBottom="false">
+            <Items>
+            	<FlexSpace/>
+            	<Button id="imageButton" systemButton="Ti.UI.iPhone.SystemButton.CAMERA" onClick="clickImageButton" />
+                <FlexSpace/>
+            </Items>
+        </Toolbar>
+	</Window>
+</Alloy>

@@ -1,0 +1,32 @@
+".item": {
+	"height": "85dp"
+},
+"#icon": {
+	"width": "85dp",
+	"height": "85dp",
+	"right": "0px"
+},
+"#nav": {
+	"backgroundColor": "#17a1ff"
+},
+"#win": {
+	"backgroundColor": "#17a1ff",
+	"barColor": "#17a1ff",
+	"navTintColor": "#fff",
+	"statusBarStyle": Ti.UI.iPhone.StatusBar.LIGHT_CONTENT
+},
+"#rightNavBtn": {
+	"systemButton": Ti.UI.iPhone.SystemButton.ADD,
+	"color": "#fff"
+},
+"#textEn": {
+	"font": { "fontSize": 22 },
+	"top": "12dp",
+	"left": "20dp"
+},
+"#textJa": {
+	"font": { "fontSize": 15 },
+	"top": "45dp",
+	"left": "20dp",
+	'visible': false
+}

@@ -1,0 +1,28 @@
+"#textEn": {
+	"borderStyle": Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+	"top": "10dp",
+	"left": "10dp",
+	"right": "10dp",
+	"height": "50dp"
+},
+"#textJa": {
+	"borderStyle": Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+	"top": "65dp",
+	"left": "10dp",
+	"right": "10dp",
+	"height": "50dp"
+},
+"#toolbar": {
+	"bottom": 0,
+	"borderTop": true,
+	"borderBottom": false,
+	"backgroundColor": "#17a1ff",
+	"barColor": "#17a1ff",
+	"tintColor": "#fff",
+},
+"#win": {
+	"backgroundColor": "#fff",
+	"barColor": "#17a1ff",
+	"navTintColor": "#fff",
+	"statusBarStyle": Ti.UI.iPhone.StatusBar.LIGHT_CONTENT
+}

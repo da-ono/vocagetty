@@ -1,0 +1,60 @@
+<Alloy>
+	<NavigationWindow id="nav" platform="ios">
+		<Window id="win" titleImage="header_logo.png">
+			<RightNavButton>
+				<Button id="rightNavBtn" onClick="rightNavBtnClick">
+			</RightNavButton>
+			<ListView id="listView" defaultItemTemplate="item" onItemclick="itemclick">
+				<Templates>
+					<ItemTemplate name="template">
+						<ImageView bindId="icon" id="icon" />
+						<Label bindId="textEn" id="textEn" />
+						<Label bindId="textJa" id="textJa" />
+					</ItemTemplate>
+				</Templates>
+				<ListSection id="section">
+					<ListItem template="template" class="item"
+						textEn:text="curious"
+						textJa:text="好奇心の強い、詮索好きな"
+						icon:image="http://photohackday.sudachi-works.com/getty/thumb2/919390dc819ea4de0bb6d691b756cbf3/340/340" />
+					<ListItem template="template" class="item"
+						textEn:text="occupied"
+						textJa:text="占領された、塞がった"
+						icon:image="http://photohackday.sudachi-works.com/getty/thumb2/11f931a8f3c809292269913f2e85c01c/340/340" />
+					<ListItem template="template" class="item"
+						textEn:text="discover"
+						textJa:text="発見する、気づく"
+						icon:image="http://photohackday.sudachi-works.com/getty/thumb/515ca74bdc046a899de65ca4aae8f4fd/340/340" />
+					<ListItem template="template" class="item"
+						textEn:text="ingest"
+						textJa:text="摂取する、吸収する"
+						icon:image="http://photohackday.sudachi-works.com/getty/thumb2/ec41fed4297c97b37bd6b44e5b8def9c/340/340" />
+					<ListItem template="template" class="item"
+						textEn:text="lawn"
+						textJa:text="芝生、空き地"
+						icon:image="http://photohackday.sudachi-works.com/getty/thumb2/75fd86746893259a22f3bb888a69d05d/340/340" />
+					<ListItem template="template" class="item"
+						textEn:text="loaves"
+						textJa:text="（パン、肉の）塊"
+						icon:image="http://photohackday.sudachi-works.com/getty/thumb2/add61296ad29f983ff50ca80d232c4da/340/340" />
+					<ListItem template="template" class="item"
+						textEn:text="upset"
+						textJa:text="あわてさせる、ひっくり返る"
+						icon:image="http://photohackday.sudachi-works.com/getty/thumb2/d3686b4373f0f644832f72c29a13e48d/340/340" />
+					<ListItem template="template" class="item"
+						textEn:text="strive"
+						textJa:text="頑張る、尽力する"
+						icon:image="http://photohackday.sudachi-works.com/getty/thumb2/10c00eed35c39cc59004f838346c503c/340/340" />
+					<ListItem template="template" class="item"
+						textEn:text="along"
+						textJa:text="一緒に、沿って"
+						icon:image="http://photohackday.sudachi-works.com/getty/thumb2/367d7a5c9af05a785ada8d7ee5fadf6f/340/340" />
+					<ListItem template="template" class="item"
+						textEn:text="incline"
+						textJa:text="傾斜、心が傾く"
+						icon:image="http://photohackday.sudachi-works.com/getty/thumb2/fef3b729aac5f5411e247c98372e4888/340/340" />
+				</ListSection>
+			</ListView>
+		</Window>
+	</NavigationWindow>
+</Alloy>
